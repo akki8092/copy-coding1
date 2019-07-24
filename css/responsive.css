@@ -1,0 +1,360 @@
+.mainHeading {
+  font-size: 55px;
+  font-weight: 800;
+  color: #2E2E2E !important;
+  margin-top: 120px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 0.8em;
+  color: #484848;
+}
+
+.paragraph {
+  line-height: 1.5em;
+  font-size: 15px;
+  color: #484848;
+}
+
+.headingBorder {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.headingBorderBefore {
+  content: '';
+  position: absolute;
+  top: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #6e6e6e;
+  border-radius: 2px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 1128px) {
+  .wrapper {
+    max-width: 745px;
+    padding: 0;
+  }
+
+  .header-wrapper {
+    display: none;
+  }
+
+  .top-wrapper {
+    top: 0;
+    height: 300px;
+  }
+  .top-wrapper .tab-top-heading {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    left: 90px;
+    bottom: 30px;
+  }
+  .top-wrapper .pc-top-wrapper-box {
+    display: none;
+  }
+
+  .tab-top-wrapper-box {
+    display: block;
+  }
+
+  .contents-wrapper {
+    margin-top: 50px;
+  }
+  .contents-wrapper .top-txt-contents {
+    display: block;
+  }
+  .contents-wrapper .top-txt-contents .top-txt-content {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .step-wrapper .step-wrapper-heading h1 {
+    font-size: 40px;
+  }
+  .step-wrapper .steps {
+    display: block;
+    padding: 0 30px;
+  }
+  .step-wrapper .steps .step {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .host-example-wrapper .host-example .host-exampole-image img, .host-example-wrapper .host-example2 .host-exampole-image img {
+    width: 325px;
+    height: 325px;
+  }
+  .host-example-wrapper .host-example .host-example-padding, .host-example-wrapper .host-example2 .host-example-padding {
+    padding: 0 25px;
+  }
+  .host-example-wrapper .host-example .host-example-contents .fas, .host-example-wrapper .host-example2 .host-example-contents .fas {
+    font-size: 22px;
+  }
+  .host-example-wrapper .host-example .host-example-contents .host-example-contents-quote, .host-example-wrapper .host-example2 .host-example-contents .host-example-contents-quote {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .host-example-wrapper .host-example .host-example-contents .host-example-content, .host-example-wrapper .host-example2 .host-example-contents .host-example-content {
+    font-size: 14px;
+  }
+  .host-example-wrapper .host-example .host-example-contents .host-example-btn, .host-example-wrapper .host-example2 .host-example-contents .host-example-btn {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .support-wrapper .supoprt-wrapper-heading h1 {
+    font-size: 40px;
+  }
+  .support-wrapper .supports {
+    display: block;
+  }
+  .support-wrapper .supports .top-txt-contents {
+    margin-bottom: 60px;
+  }
+
+  .fee-wrapper .fee-wrapper-heading h1 {
+    font-size: 40px;
+  }
+  .fee-wrapper .fees {
+    display: block;
+  }
+  .fee-wrapper .fees .top-txt-contents {
+    margin-bottom: 60px;
+  }
+
+  .question-wrapper .question-wrapper-heading h1 {
+    font-size: 40px;
+  }
+  .question-wrapper .questions .quesiton-box {
+    float: none;
+    width: 95%;
+    margin: 0 auto 1.5em;
+  }
+
+  .how-to-wrapper {
+    display: none;
+  }
+
+  .tab-how-to-wrapper {
+    display: block;
+    margin: 80px auto;
+  }
+  .tab-how-to-wrapper h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 0.8em;
+    color: #484848;
+    margin-left: 40px;
+  }
+  .tab-how-to-wrapper .how-to-boxes {
+    display: flex;
+    justify-content: center !important;
+  }
+  .tab-how-to-wrapper .how-to-boxes .card {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 18px;
+    box-shadow: 1px 1px 5px 1px #E6E6E6;
+  }
+  .tab-how-to-wrapper .how-to-boxes .card .how-to-contents img {
+    width: 200px;
+    height: 100%;
+    padding: 0 0 8px;
+  }
+  .tab-how-to-wrapper .how-to-boxes .card .how-to-contents h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #484848 !important;
+    padding-left: 15px;
+  }
+  .tab-how-to-wrapper .how-to-boxes .card .how-to-contents p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0 0 10px 15px;
+    color: #484848 !important;
+  }
+
+  .footer-image-wrapper {
+    padding: 40px 0 120px;
+  }
+  .footer-image-wrapper .footer-image h1 {
+    font-size: 40px;
+    line-height: 1em;
+    padding-left: 70px;
+    width: 10em;
+  }
+  .footer-image-wrapper .footer-image a {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 745px) {
+  .top-wrapper .tab-top-heading {
+    font-size: 35px;
+    left: 30px;
+  }
+
+  .tab-top-wrapper-box .select-box .top-wrapper-option .select1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .tab-top-wrapper-box .select-box .top-wrapper-option .select2 {
+    width: 100%;
+  }
+
+  .step-wrapper .step-wrapper-heading {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .step-wrapper .step-wrapper-heading h1 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  .step-wrapper .step-wrapper-heading h1:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    left: 35px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #6e6e6e;
+    border-radius: 2px;
+  }
+
+  .host-example-wrapper .host-example, .host-example-wrapper .host-example2 {
+    display: block;
+  }
+  .host-example-wrapper .host-example .host-exampole-image img, .host-example-wrapper .host-example2 .host-exampole-image img {
+    max-width: 528px;
+    max-height: 528px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .host-example-wrapper .host-example .host-example-contents .host-example-contents-quote, .host-example-wrapper .host-example2 .host-example-contents .host-example-contents-quote {
+    padding-top: 0;
+  }
+  .host-example-wrapper .host-example .host-example-contents .host-example-btn, .host-example-wrapper .host-example2 .host-example-contents .host-example-btn {
+    padding: 10px 20px;
+  }
+
+  .support-wrapper .supoprt-wrapper-heading {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .support-wrapper .supoprt-wrapper-heading h1 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  .support-wrapper .supoprt-wrapper-heading h1:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    left: 35px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #6e6e6e;
+    border-radius: 2px;
+  }
+
+  .fee-wrapper .fee-wrapper-heading {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .fee-wrapper .fee-wrapper-heading h1 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  .fee-wrapper .fee-wrapper-heading h1:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    left: 35px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #6e6e6e;
+    border-radius: 2px;
+  }
+
+  .question-wrapper .question-wrapper-heading {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .question-wrapper .question-wrapper-heading h1 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  .question-wrapper .question-wrapper-heading h1:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    left: 35px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #6e6e6e;
+    border-radius: 2px;
+  }
+
+  .tab-how-to-wrapper h3 {
+    margin-left: 20px;
+  }
+  .tab-how-to-wrapper .how-to-boxes {
+    display: block;
+  }
+  .tab-how-to-wrapper .how-to-boxes .card {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+  }
+  .tab-how-to-wrapper .how-to-boxes .card .how-to-contents img {
+    width: 100%;
+  }
+
+  .footer-image-wrapper {
+    padding: 15px 0 75px;
+  }
+
+  .footer-list-wrapper {
+    display: none;
+  }
+
+  .footer-contents {
+    border-top-style: none;
+    margin-top: 60px;
+  }
+  .footer-contents .footer-right {
+    display: flex;
+  }
+}
